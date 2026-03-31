@@ -1,5 +1,5 @@
 ---
-name: ck:perf-engineering
+name: perf-engineering
 description: Performance engineering for API and web apps. Load/stress/soak/spike testing with JMeter and k6. CI/CD perf gates, database optimization (index, caching, execution plan), memory leak detection, cloud perf testing (AWS/GCP), monitoring (Prometheus/Grafana), bottleneck analysis, capacity planning, performance budgets, Core Web Vitals. Use for perf test strategy, script design, environment setup, result analysis, and optimization recommendations.
 version: 2.0.0
 license: Apache-2.0
@@ -22,7 +22,7 @@ Covers API, web, and mobile applications.
 1. **Reproducibility first** — Tests must produce consistent results when system under test is unchanged
 2. **Risk-based approach** — Base performance risk assessment on each technical environment
 3. **Test early** — Start perf testing early in development lifecycle
-4. **Real user behavior** — Model actual user behaviour, not just arbitrary load numbers
+4. **Real user behavior** — Model actual user behavior, not just arbitrary load numbers
 5. **Throughput ≠ concurrent users** — Throughput depends on think time, session duration, journey complexity
 6. **Production parity** — Perf test environment must be equivalent to production
 7. **Business-driven** — Business objective → technical objective → think time → test script
