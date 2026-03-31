@@ -1,5 +1,5 @@
 ---
-name: perf-engineering
+name: performance-engineering
 description: Performance engineering for API and web apps. Load/stress/soak/spike testing with JMeter and k6. CI/CD perf gates, database optimization (index, caching, execution plan), memory leak detection, cloud perf testing (AWS/GCP), monitoring (Prometheus/Grafana), bottleneck analysis, capacity planning, performance budgets, Core Web Vitals. Use for perf test strategy, script design, environment setup, result analysis, and optimization recommendations.
 version: 2.0.0
 license: Apache-2.0
